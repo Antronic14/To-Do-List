@@ -6,7 +6,7 @@ const SearchItem = ({search,setSearch}) => {
     <label htmlFor="search">Search</label>
     <input 
         id='search'
-        role='searchBox'
+        role='listitem'
         type="text" 
         placeholder='Search Item'
         value={search}
